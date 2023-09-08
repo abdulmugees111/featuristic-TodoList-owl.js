@@ -1,0 +1,63 @@
+// import {
+//   Component,
+//   useState,
+//   xml
+// } from "@odoo/owl";
+// import { Task } from "./taskInputField"
+// import { AddBut } from "./AddButton"
+
+// const first_input_field = xml/*xml*/ `
+//   <div class="m-0 p-4 bg-white rounded">
+//     <button class="btn btn-primary" type="button" id="button-addon2" t-on-click="addTask">
+//     </button>
+//   </div>
+// `;
+
+// import { useState, Component, xml } from "@odoo/owl";
+// const Addbutton = xml/*xml*/ `
+// <div>Child component</div>;
+// `;
+// export class AddBut extends Component {
+//   static template = Addbutton;
+
+//   setup() {
+//     this.state = useState({});
+//   }
+
+//   // function to add task
+//   AddTask() {
+//     console.log("hello");
+//   }
+// }
+// class ChildComponent extends React.Component {
+//     myFunction() {
+//       console.log("Hello from child component");
+//     }
+//     render() {
+//       return <div>Child component</div>;
+//     }
+//   }
+//   class ParentComponent extends React.Component {
+//     constructor(props) {
+//       super(props);
+//       this.childRef = React.createRef();
+//     }
+  
+//     callChildFunction() {
+//       this.childRef.current.myFunction();
+//     }
+  
+//     render() {
+//       return (
+//         <div>
+//           <ChildComponent ref={this.childRef} />
+//           <button onClick={() => this.callChildFunction()}>Call child function</button>
+//         </div>
+//       );
+//     }
+//   }
+  
+
+
+
+  
